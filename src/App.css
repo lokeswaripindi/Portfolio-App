@@ -1,0 +1,208 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.header {
+  display: flex; /* Use Flexbox for layout */
+  justify-content: center; /* Center the header content */
+  align-items: center; /* Center items vertically */
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+/* Add this CSS to App.css */
+
+.achievements {
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+/* Add this CSS to App.css */
+
+/* Add this CSS to App.css */
+
+.internships {
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.internships h2 {
+  color: #333;
+}
+
+.internships ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.internship-item {
+  margin: 10px 0; /* Space between each internship item */
+}
+
+.internship-title {
+  display: flex; /* Use Flexbox for layout */
+  justify-content: space-between; /* Space between title and date */
+  align-items: center; /* Align items vertically */
+}
+
+.internship-date {
+  margin-left: auto; /* Push the date to the right */
+  color: #888; /* Optional: color for the date */
+  font-weight: normal; /* Optional: normal weight for the date */
+}
+
+.achievements h2 {
+  color: #333;
+}
+
+.achievements ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.achievements li {
+  margin: 10px 0;
+}
+/* Add this CSS to App.css */
+
+/* Add this CSS to App.css */
+
+/* Add this CSS to App.css */
+
+.education {
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education h2 {
+  color: #333;
+}
+
+.education ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.education-item {
+  margin: 10px 0; /* Space between each education item */
+}
+
+.education-title {
+  display: flex; /* Use Flexbox for layout */
+  justify-content: space-between; /* Space between title and duration */
+  align-items: center; /* Align items vertically */
+}
+
+.duration {
+  margin-left: 20px; /* Space between title and duration */
+  color: #888; /* Optional: color for the duration */
+}
+
+.department-cgpa {
+  display: flex; /* Use Flexbox for layout */
+  flex-direction: column; /* Stack department and CGPA */
+}
+
+.cgpa {
+  margin-top: 5px; /* Space between department and CGPA */
+  color: #888; /* Optional: color for the CGPA */
+}
+/* Add this CSS to App.css */
+
+.languages {
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.languages h2 {
+  color: #333;
+}
+
+.languages ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.languages li {
+  margin: 10px 0; /* Space between each language item */
+}
+
+
+
+
+.header-content {
+  display: flex; /* Use Flexbox for the content */
+  justify-content: center; /* Center the text content */
+  align-items: center; /* Align items vertically */
+}
+
+.text-content {
+  text-align: center; /* Center the text */
+  margin-right: 20px; /* Add space between text and image */
+}
+
+.profile-photo {
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Makes the image circular */
+}
+
+.contact-info {
+  margin-top: 10px; /* Space between the name/title and contact info */
+}
+
+.social-links {
+  margin-top: 5px; /* Space between email and social links */
+}
+
+.social-links a {
+  margin-right: 15px; /* Space between each link */
+  color: #61dafb; /* Link color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.social-links a:hover {
+  text-decoration: underline; /* Underline on hover for better UX */
+}
+
+.about, .skills, .projects, .certifications, .contact {
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  color: #61dafb;
+  text-decoration: none;
+}
